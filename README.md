@@ -9,6 +9,6 @@ This Kernel will identify itself under the APT manager as "linux-image-z10" and 
 
 Install with:
 
-dpkg -i <filename>.deb
+dpkg -i filename.deb
 
 This install process is very similar to the kernel package from the original Raspberry PiOS packages. It uses dpkg-divert "hack" to unpack the files, and then move the files to /boot/firmware.
