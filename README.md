@@ -5,7 +5,7 @@ The kernel included in these images a pretty generic. This kernel will enable yo
 
 This kernel is also compiled with a PREEM settings of 250hz, which is a good (better) middle ground. Everything else is set a default, no changes. This kernel includes support for all RPI boards v7/v8.
 
-This Kernel will identify itself under the APT manager as "linux-image-z10" and as 6.1.21-z10 under "uname" for a somewhat unique naming.
+This Kernel will identify itself under the APT manager as "linux-image-z10" and as 6.1.x-z10 under "uname" for a somewhat unique naming.
 
 Install with:
 
