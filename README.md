@@ -11,4 +11,8 @@ Install with:
 
 dpkg -i filename.deb
 
+- Dont forget to:
+
+Pruge the Debian default kernel "linux-image-x" and anwser YES to "Remove current running kernel". Edit config.txt and remove kernel= and initramfs.
+
 This install process is very similar to the kernel package from the original Raspberry PiOS packages. It uses dpkg-divert "hack" to unpack the files, and then move the files to /boot/firmware.
